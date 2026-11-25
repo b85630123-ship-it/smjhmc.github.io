@@ -1,0 +1,565 @@
+{
+  "title": "桃園市立石門國中｜3D 虛擬校園",
+  "generator": "Arnis MVP",
+  "sourceEdition": "Minecraft Java",
+  "worldVersion": "1.21.4 (level.dat)",
+  "chunkDataVersion": 3955,
+  "blockCount": 593065,
+  "faceCount": 890946,
+  "worldBounds": {
+    "x": [
+      0,
+      511
+    ],
+    "y": [
+      -64,
+      319
+    ],
+    "z": [
+      0,
+      511
+    ]
+  },
+  "spawn": {
+    "x": 174,
+    "y": -51,
+    "z": 180
+  },
+  "blockMaterials": [
+    {
+      "id": 0,
+      "name": "minecraft:andesite",
+      "faceStart": 0,
+      "vertexCount": 894
+    },
+    {
+      "id": 1,
+      "name": "minecraft:anvil",
+      "faceStart": 2682,
+      "vertexCount": 1818
+    },
+    {
+      "id": 2,
+      "name": "minecraft:azure_bluet",
+      "faceStart": 8136,
+      "vertexCount": 3384
+    },
+    {
+      "id": 3,
+      "name": "minecraft:bedrock",
+      "faceStart": 18288,
+      "vertexCount": 710238
+    },
+    {
+      "id": 4,
+      "name": "minecraft:blackstone",
+      "faceStart": 2149002,
+      "vertexCount": 6834
+    },
+    {
+      "id": 5,
+      "name": "minecraft:blue_orchid",
+      "faceStart": 2169504,
+      "vertexCount": 3204
+    },
+    {
+      "id": 6,
+      "name": "minecraft:bookshelf",
+      "faceStart": 2179116,
+      "vertexCount": 15102
+    },
+    {
+      "id": 7,
+      "name": "minecraft:brewing_stand",
+      "faceStart": 2224422,
+      "vertexCount": 522
+    },
+    {
+      "id": 8,
+      "name": "minecraft:brick_wall",
+      "faceStart": 2225988,
+      "vertexCount": 24
+    },
+    {
+      "id": 9,
+      "name": "minecraft:bricks",
+      "faceStart": 2226060,
+      "vertexCount": 4536
+    },
+    {
+      "id": 10,
+      "name": "minecraft:brown_concrete",
+      "faceStart": 2239668,
+      "vertexCount": 576
+    },
+    {
+      "id": 11,
+      "name": "minecraft:brown_concrete_powder",
+      "faceStart": 2241396,
+      "vertexCount": 540
+    },
+    {
+      "id": 12,
+      "name": "minecraft:brown_stained_glass",
+      "faceStart": 2243016,
+      "vertexCount": 18078
+    },
+    {
+      "id": 13,
+      "name": "minecraft:brown_terracotta",
+      "faceStart": 2297250,
+      "vertexCount": 516
+    },
+    {
+      "id": 14,
+      "name": "minecraft:cauldron",
+      "faceStart": 2298798,
+      "vertexCount": 3498
+    },
+    {
+      "id": 15,
+      "name": "minecraft:chain",
+      "faceStart": 2309292,
+      "vertexCount": 4368
+    },
+    {
+      "id": 16,
+      "name": "minecraft:chiseled_stone_bricks",
+      "faceStart": 2322396,
+      "vertexCount": 36312
+    },
+    {
+      "id": 17,
+      "name": "minecraft:cobbled_deepslate",
+      "faceStart": 2431332,
+      "vertexCount": 252
+    },
+    {
+      "id": 18,
+      "name": "minecraft:cobblestone",
+      "faceStart": 2432088,
+      "vertexCount": 13266
+    },
+    {
+      "id": 19,
+      "name": "minecraft:cobblestone_wall",
+      "faceStart": 2471886,
+      "vertexCount": 804
+    },
+    {
+      "id": 20,
+      "name": "minecraft:cracked_stone_bricks",
+      "faceStart": 2474298,
+      "vertexCount": 22326
+    },
+    {
+      "id": 21,
+      "name": "minecraft:crafting_table",
+      "faceStart": 2541276,
+      "vertexCount": 2988
+    },
+    {
+      "id": 22,
+      "name": "minecraft:cyan_terracotta",
+      "faceStart": 2550240,
+      "vertexCount": 4404
+    },
+    {
+      "id": 23,
+      "name": "minecraft:dandelion",
+      "faceStart": 2563452,
+      "vertexCount": 3276
+    },
+    {
+      "id": 24,
+      "name": "minecraft:dark_oak_door",
+      "faceStart": 2573280,
+      "vertexCount": 11178
+    },
+    {
+      "id": 25,
+      "name": "minecraft:deepslate_bricks",
+      "faceStart": 2606814,
+      "vertexCount": 402
+    },
+    {
+      "id": 26,
+      "name": "minecraft:dirt",
+      "faceStart": 2608020,
+      "vertexCount": 154536
+    },
+    {
+      "id": 27,
+      "name": "minecraft:end_rod",
+      "faceStart": 3071628,
+      "vertexCount": 540
+    },
+    {
+      "id": 28,
+      "name": "minecraft:furnace",
+      "faceStart": 3073248,
+      "vertexCount": 2556
+    },
+    {
+      "id": 29,
+      "name": "minecraft:glass",
+      "faceStart": 3080916,
+      "vertexCount": 1476
+    },
+    {
+      "id": 30,
+      "name": "minecraft:glowstone",
+      "faceStart": 3085344,
+      "vertexCount": 2082
+    },
+    {
+      "id": 31,
+      "name": "minecraft:granite",
+      "faceStart": 3091590,
+      "vertexCount": 1362
+    },
+    {
+      "id": 32,
+      "name": "minecraft:grass_block",
+      "faceStart": 3095676,
+      "vertexCount": 2503488
+    },
+    {
+      "id": 33,
+      "name": "minecraft:gravel",
+      "faceStart": 10606140,
+      "vertexCount": 84
+    },
+    {
+      "id": 34,
+      "name": "minecraft:gray_concrete",
+      "faceStart": 10606392,
+      "vertexCount": 12498
+    },
+    {
+      "id": 35,
+      "name": "minecraft:gray_concrete_powder",
+      "faceStart": 10643886,
+      "vertexCount": 4620
+    },
+    {
+      "id": 36,
+      "name": "minecraft:gray_stained_glass",
+      "faceStart": 10657746,
+      "vertexCount": 8466
+    },
+    {
+      "id": 37,
+      "name": "minecraft:gray_terracotta",
+      "faceStart": 10683144,
+      "vertexCount": 16260
+    },
+    {
+      "id": 38,
+      "name": "minecraft:green_terracotta",
+      "faceStart": 10731924,
+      "vertexCount": 22860
+    },
+    {
+      "id": 39,
+      "name": "minecraft:iron_bars",
+      "faceStart": 10800504,
+      "vertexCount": 570
+    },
+    {
+      "id": 40,
+      "name": "minecraft:iron_block",
+      "faceStart": 10802214,
+      "vertexCount": 12504
+    },
+    {
+      "id": 41,
+      "name": "minecraft:light_blue_terracotta",
+      "faceStart": 10839726,
+      "vertexCount": 24132
+    },
+    {
+      "id": 42,
+      "name": "minecraft:light_gray_concrete",
+      "faceStart": 10912122,
+      "vertexCount": 97068
+    },
+    {
+      "id": 43,
+      "name": "minecraft:light_gray_stained_glass",
+      "faceStart": 11203326,
+      "vertexCount": 432
+    },
+    {
+      "id": 44,
+      "name": "minecraft:lightning_rod",
+      "faceStart": 11204622,
+      "vertexCount": 90
+    },
+    {
+      "id": 45,
+      "name": "minecraft:mud_brick_stairs",
+      "faceStart": 11204892,
+      "vertexCount": 9528
+    },
+    {
+      "id": 46,
+      "name": "minecraft:note_block",
+      "faceStart": 11233476,
+      "vertexCount": 1392
+    },
+    {
+      "id": 47,
+      "name": "minecraft:oak_fence",
+      "faceStart": 11237652,
+      "vertexCount": 2862
+    },
+    {
+      "id": 48,
+      "name": "minecraft:oak_leaves",
+      "faceStart": 11246238,
+      "vertexCount": 561390
+    },
+    {
+      "id": 49,
+      "name": "minecraft:oak_log",
+      "faceStart": 12930408,
+      "vertexCount": 46668
+    },
+    {
+      "id": 50,
+      "name": "minecraft:oak_planks",
+      "faceStart": 13070412,
+      "vertexCount": 41898
+    },
+    {
+      "id": 51,
+      "name": "minecraft:oak_pressure_plate",
+      "faceStart": 13196106,
+      "vertexCount": 7020
+    },
+    {
+      "id": 52,
+      "name": "minecraft:oak_stairs",
+      "faceStart": 13217166,
+      "vertexCount": 1854
+    },
+    {
+      "id": 53,
+      "name": "minecraft:polished_andesite",
+      "faceStart": 13222728,
+      "vertexCount": 28932
+    },
+    {
+      "id": 54,
+      "name": "minecraft:polished_andesite_stairs",
+      "faceStart": 13309524,
+      "vertexCount": 936
+    },
+    {
+      "id": 55,
+      "name": "minecraft:polished_blackstone",
+      "faceStart": 13312332,
+      "vertexCount": 6420
+    },
+    {
+      "id": 56,
+      "name": "minecraft:polished_blackstone_bricks",
+      "faceStart": 13331592,
+      "vertexCount": 48918
+    },
+    {
+      "id": 57,
+      "name": "minecraft:polished_deepslate",
+      "faceStart": 13478346,
+      "vertexCount": 510
+    },
+    {
+      "id": 58,
+      "name": "minecraft:polished_deepslate_stairs",
+      "faceStart": 13479876,
+      "vertexCount": 228
+    },
+    {
+      "id": 59,
+      "name": "minecraft:polished_diorite_stairs",
+      "faceStart": 13480560,
+      "vertexCount": 12738
+    },
+    {
+      "id": 60,
+      "name": "minecraft:polished_granite",
+      "faceStart": 13518774,
+      "vertexCount": 1638
+    },
+    {
+      "id": 61,
+      "name": "minecraft:poppy",
+      "faceStart": 13523688,
+      "vertexCount": 3294
+    },
+    {
+      "id": 62,
+      "name": "minecraft:quartz_block",
+      "faceStart": 13533570,
+      "vertexCount": 648
+    },
+    {
+      "id": 63,
+      "name": "minecraft:quartz_bricks",
+      "faceStart": 13535514,
+      "vertexCount": 3522
+    },
+    {
+      "id": 64,
+      "name": "minecraft:quartz_slab",
+      "faceStart": 13546080,
+      "vertexCount": 1026
+    },
+    {
+      "id": 65,
+      "name": "minecraft:quartz_stairs",
+      "faceStart": 13549158,
+      "vertexCount": 4110
+    },
+    {
+      "id": 66,
+      "name": "minecraft:red_bed",
+      "faceStart": 13561488,
+      "vertexCount": 1686
+    },
+    {
+      "id": 67,
+      "name": "minecraft:red_wall_banner",
+      "faceStart": 13566546,
+      "vertexCount": 120
+    },
+    {
+      "id": 68,
+      "name": "minecraft:redstone_block",
+      "faceStart": 13566906,
+      "vertexCount": 6
+    },
+    {
+      "id": 69,
+      "name": "minecraft:sandstone",
+      "faceStart": 13566924,
+      "vertexCount": 124422
+    },
+    {
+      "id": 70,
+      "name": "minecraft:short_grass",
+      "faceStart": 13940190,
+      "vertexCount": 156036
+    },
+    {
+      "id": 71,
+      "name": "minecraft:smooth_quartz",
+      "faceStart": 14408298,
+      "vertexCount": 816
+    },
+    {
+      "id": 72,
+      "name": "minecraft:smooth_sandstone",
+      "faceStart": 14410746,
+      "vertexCount": 23010
+    },
+    {
+      "id": 73,
+      "name": "minecraft:smooth_sandstone_stairs",
+      "faceStart": 14479776,
+      "vertexCount": 17862
+    },
+    {
+      "id": 74,
+      "name": "minecraft:smooth_stone",
+      "faceStart": 14533362,
+      "vertexCount": 33624
+    },
+    {
+      "id": 75,
+      "name": "minecraft:smooth_stone_slab",
+      "faceStart": 14634234,
+      "vertexCount": 1122
+    },
+    {
+      "id": 76,
+      "name": "minecraft:stone",
+      "faceStart": 14637600,
+      "vertexCount": 241530
+    },
+    {
+      "id": 77,
+      "name": "minecraft:stone_brick_slab",
+      "faceStart": 15362190,
+      "vertexCount": 10956
+    },
+    {
+      "id": 78,
+      "name": "minecraft:stone_brick_stairs",
+      "faceStart": 15395058,
+      "vertexCount": 8694
+    },
+    {
+      "id": 79,
+      "name": "minecraft:stone_brick_wall",
+      "faceStart": 15421140,
+      "vertexCount": 25590
+    },
+    {
+      "id": 80,
+      "name": "minecraft:stone_bricks",
+      "faceStart": 15497910,
+      "vertexCount": 124968
+    },
+    {
+      "id": 81,
+      "name": "minecraft:tall_grass",
+      "faceStart": 15872814,
+      "vertexCount": 138
+    },
+    {
+      "id": 82,
+      "name": "minecraft:terracotta",
+      "faceStart": 15873228,
+      "vertexCount": 1524
+    },
+    {
+      "id": 83,
+      "name": "minecraft:tinted_glass",
+      "faceStart": 15877800,
+      "vertexCount": 4086
+    },
+    {
+      "id": 84,
+      "name": "minecraft:white_carpet",
+      "faceStart": 15890058,
+      "vertexCount": 3894
+    },
+    {
+      "id": 85,
+      "name": "minecraft:white_concrete",
+      "faceStart": 15901740,
+      "vertexCount": 19170
+    },
+    {
+      "id": 86,
+      "name": "minecraft:white_stained_glass",
+      "faceStart": 15959250,
+      "vertexCount": 25764
+    },
+    {
+      "id": 87,
+      "name": "minecraft:white_wool",
+      "faceStart": 16036542,
+      "vertexCount": 162
+    }
+  ],
+  "compressedBytes": 5588167,
+  "uncompressedBytes": 32074056,
+  "notes": [
+    "Terrain generator is flat; the file does not contain surveyed campus elevation.",
+    "Buildings and vegetation are voxelized/generated content in the supplied Arnis world; accuracy to the real campus is unverified.",
+    "Block states such as stair orientation are simplified to full cubes in this Three.js preview."
+  ]
+}

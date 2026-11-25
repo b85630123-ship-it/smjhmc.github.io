@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10231f">
+  <meta name="description" content="由 Arnis Minecraft 世界轉製的桃園市立石門國中 3D 校園底圖預覽。">
+  <title>石門國中｜3D 虛擬校園</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+    {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.187.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.187.0/examples/jsm/"}}
+  </script>
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="side-panel">
+      <div class="brand-row"><div class="brand-mark">石</div><div><div class="eyebrow">TAOYUAN · LONGTAN</div><div class="brand-name">桃園市立石門國中</div></div></div>
+      <div class="hero-copy">
+        <div class="pill"><span class="pulse"></span> 校園模型 · 預覽版</div>
+        <h1>走進<br><em>數位校園</em></h1>
+        <p>從 Arnis 產生的 Minecraft 世界轉製而成。拖曳旋轉、滾輪縮放，先鳥瞰校園模型的整體配置。</p>
+      </div>
+      <div class="control-card">
+        <div class="card-title"><span>探索視角</span><span class="tiny-label">3D VIEW</span></div>
+        <div class="button-row"><button id="view-orbit" class="view-button active" aria-pressed="true">自由視角</button><button id="view-top" class="view-button" aria-pressed="false">俯視地圖</button></div>
+        <button id="reset-view" class="reset-button"><span>⟳</span> 重設視角</button>
+        <div class="gesture-list"><div><span class="gesture-icon">↔</span><span>拖曳旋轉</span></div><div><span class="gesture-icon">⌕</span><span>滾輪縮放</span></div><div><span class="gesture-icon">⇧</span><span>右鍵平移</span></div></div>
+      </div>
+      <div class="facts-grid">
+        <div class="fact"><span class="fact-value">512 × 512</span><span class="fact-label">方塊範圍</span></div>
+        <div class="fact"><span class="fact-value">59 萬+</span><span class="fact-label">非空方塊</span></div>
+      </div>
+      <details class="about-card">
+        <summary><span>模型資料說明</span><span class="chevron">⌄</span></summary>
+        <div class="about-body">
+          <p>這份世界檔案包含平坦地表、植被與多種建築方塊。校舍是 Arnis 生成內容，尚未核對實際校舍尺寸與配置；本預覽把階梯、門等特殊方塊簡化成整塊方塊。</p>
+          <p>目前適合檢視底圖與討論修改方向，不能視為已完成的 1：1 校園復原。</p>
+          <a href="README.md">查看製作與部署說明 ↗</a>
+        </div>
+      </details>
+      <footer><span class="status-dot"></span> 使用 Three.js 即時繪製 <span class="footer-version">V0.1</span></footer>
+    </aside>
+    <section class="stage" aria-label="可互動的校園 3D 模型">
+      <div class="stage-top"><div class="stage-label"><span class="stage-dot"></span> CAMPUS OVERVIEW <span class="stage-divider">/</span> ARINIS WORLD</div><div class="north-mark"><span>N</span><b>↑</b></div></div>
+      <div id="canvas-host"></div>
+      <div class="loading" id="loading"><div class="loader-ring"></div><div class="loading-title">正在載入校園模型</div><div class="loading-copy">第一次載入約需數秒</div></div>
+      <div class="stage-bottom"><span>拖曳畫面以探索 · 校園模型預覽</span><span id="size-readout">資料載入中</span></div>
+      <div class="credit-chip"><span class="credit-icon">▦</span><span>ARNIS WORLD<br><b>Block-based Campus</b></span></div>
+    </section>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
