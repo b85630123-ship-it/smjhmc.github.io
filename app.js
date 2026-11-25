@@ -61,10 +61,10 @@ const mats = [];
 const bounds = new THREE.Box3();
 
 async function loadMesh() {
-  const manifestResponse = await fetch('./data/manifest.json');
+  const manifestResponse = await fetch('./manifest.json');
   if (!manifestResponse.ok) throw new Error('找不到校園模型索引檔。');
   const manifest = await manifestResponse.json();
-  const response = await fetch('./data/campus-mesh.bin.gz');
+  const response = await fetch('./campus-mesh.bin.gz');
   if (!response.ok) throw new Error('模型資料下載失敗，請確認 data 資料夾有一併上傳。');
   let raw;
   if ('DecompressionStream' in window) {
